@@ -1,0 +1,111 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("fonts.css");
+
+.welcomeFemale{
+	background-image: url(../img/backgroundWFemale.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+.welcomeMale{
+	background-image: url(../img/backgroundWMale.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+.personaBienvenida{
+	position: fixed; 
+	bottom:0px; 
+	z-index: 10;
+	text-align: left;
+	}
+.personaBienvenida>img{
+	padding-left: 10%;
+	}
+.personaBienvenida>img{
+	max-height: 550px;
+	}
+.contenidoResize>img{
+		max-width: 100%;
+	}
+.contenedorImgEvalEV{
+	position: fixed;
+}
+.posBotonEvalEV{
+	position: absolute; 
+	top: 0px; 
+	right: 0px;
+}
+.fondoQueEs1{
+	background-image: url(../img/backgroundQueEs1.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+.fondoQueEs2{
+	background-image: url(../img/backgroundQueEs2.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}	
+#QueEsAgua{
+	position: fixed;
+	}
+.margenTop15{
+	margin-top: 15%;
+	}
+.margenTop10{
+	margin-top: 10%;
+	}
+.margenTop5{
+	margin-top: 5%;
+	}
+.inputField{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding-top: 2px;
+    padding-left: 10px;
+    padding-bottom: 2px;
+    outline: none;
+	font-size:10pt; /*18*/
+	color:#000;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	width: 15%;
+}
+.fondoDesempeno{
+	background-image: url(../img/tablaDesempeno.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+.fondoDiagnosticoOpcional{
+	background-image: url(../img/backgroundFilaDiagnostico.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	}
+.imgFraseAdicional{
+	background-image: url(../img/backgroundFAP.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}	
+.contenedorImgGenerales{
+	position: fixed;
+}
+.resultadosCuestionario1{
+	background-image: url(../img/backgroundActividad1Preguntas.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}

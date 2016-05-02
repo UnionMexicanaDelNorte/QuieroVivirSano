@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+@font-face { 
+	font-family: 'Monserrat-Bold';
+	scr: url('Flama-Basic.eot');
+	src: local('Flama-Basic'), url('Flama-Basic.otf') format('opentype'), url('Flama-Basic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face { 
+	font-family: 'Flama-Light';
+    src:url('Flama-Medium.eot');
+	src: local('Flama-Medium'), url('Flama-Medium.otf') format('opentype'), url('Flama-Medium.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;	
+}
+@font-face {
+	font-family: 'Flama-Semibold';
+	src: url('Flama-Semibold.eot');
+	src: local('Flama-Semibold'), url('Flama-Semibold.otf') format('opentype'), url('Flama-Semibold.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+@font-face {
+	font-family: 'Flama-Book';
+	src: url('Flama-Book.eot');
+	src: local('Flama-Book'), url('Flama-Book.otf') format('opentype'), url('Flama-Book.ttf') format('truetype');
+	font-weight:normal;
+	font-style:normal;
+}
+
+body {
+	background: url(../img/background_index.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+#header{
+	width: 100%;
+	padding: 5%;
+	
+}
+#header img {
+	max-width: 200px;
+	margin: 10px;
+}
+.header1{
+	font-size:42pt;
+	font: Monserrat bold;
+	}
+.header2{
+	font-size:18px;
+	}
+#left_index{
+	float:left;
+	width: 49%;
+	padding-left: 5%;
+	color:#FFF;
+	}
+#right_index{
+	float:right;
+	width: 49%;
+	}
+input{
+	margin-bottom: 20px;
+	margin-left: 80px;
+	margin-right:80px;
+}
+#checkin{
+	width: 300px;
+	background-color:#FFF;
+	text-align:center;
+}

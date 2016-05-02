@@ -1,0 +1,133 @@
+
+
+/**
+ * JC 04-09-2014 Animaciones para ruleta de IMC
+ */
+#wrpCircleAnim {
+	width: 502px;
+    height: 502px;
+    position: relative;
+   	margin: 0 auto 20px;
+}
+
+.cajaCircle {
+ 	background: url('/app/img/imc/calculadoraBack.png') no-repeat;
+    width: 501px;
+    height: 501px;  
+}
+
+.en .cajaCircle {
+ 	background: url('/app/img/imc/calculadoraBack-en.png') no-repeat;
+}
+
+.cajaCircle {
+    background: url('/app/img/imc/resultado-sprite-ie8.png') no-repeat\9;
+}
+
+.dinamicCircle {
+    background: url('/app/img/imc/resultado-sprite.png') no-repeat;
+    height: 417px;
+    width: 396px;
+    position: absolute;
+    top: 7%;
+    left: 10%;
+    background-position: 0 0;
+}
+
+.en .dinamicCircle {
+ 	background: url('/app/img/imc/resultado-sprite-en.png') no-repeat;
+}
+
+.invisible-roulette {
+	display:none;
+}
+
+.dinamicCircle.normal {
+    background-position: 0 -417px;
+}
+
+.dinamicCircle.bajo_peso  {
+    background-position: 0 -834px;
+}
+
+.dinamicCircle.obesidad_grado_iii  {
+    background-position: 0 -1251px;
+}
+
+.dinamicCircle.obesidad_grado_ii  {
+    background-position: 0 -1668px;
+}
+
+.dinamicCircle.obesidad_grado_i {
+    background-position: 0 -2085px;
+}
+
+.dinamicCircle.sobrepeso {
+    background-position: 0 -2502px;
+}
+
+.rotate {
+  -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+      -ms-transform-origin: 50% 50%;
+      -o-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+
+/**
+ * Aumentando tiempo a 2 segundos
+ */
+    -webkit-transition: all 2s ease;
+       -moz-transition: all 2s ease;
+        -ms-transition: all 2s ease;
+         -o-transition: all 2s ease;
+            transition: all 2s ease;
+}
+
+.rotate.normal {
+  -webkit-transform: rotate(-720deg);
+     -moz-transform: rotate(-720deg);
+      -ms-transform: rotate(-720deg);
+       -o-transform: rotate(-720deg);
+          transform: rotate(-720deg);
+}
+
+.rotate.bajo_peso {
+  -webkit-transform: rotate(-780deg);
+     -moz-transform: rotate(-780deg);
+      -ms-transform: rotate(-780deg);
+       -o-transform: rotate(-780deg);
+          transform: rotate(-780deg);
+}
+
+
+.rotate.obesidad_grado_iii {
+  -webkit-transform: rotate(-840deg);
+     -moz-transform: rotate(-840deg);
+      -ms-transform: rotate(-840deg);
+       -o-transform: rotate(-840deg);
+          transform: rotate(-840deg);
+}
+
+.rotate.obesidad_grado_ii {
+  -webkit-transform: rotate(-900deg);
+     -moz-transform: rotate(-900deg);
+      -ms-transform: rotate(-900deg);
+       -o-transform: rotate(-900deg);
+          transform: rotate(-900deg);
+}
+
+.rotate.obesidad_grado_i {
+  -webkit-transform: rotate(-960deg);
+     -moz-transform: rotate(-960deg);
+      -ms-transform: rotate(-960deg);
+       -o-transform: rotate(-960deg);
+          transform: rotate(-960deg);
+}
+
+.rotate.sobrepeso {
+  -webkit-transform: rotate(-1020deg);
+     -moz-transform: rotate(-1020deg);
+      -ms-transform: rotate(-1020deg);
+       -o-transform: rotate(-1020deg);
+          transform: rotate(-1020deg);
+}

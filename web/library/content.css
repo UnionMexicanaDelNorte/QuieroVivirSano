@@ -1,0 +1,393 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("fonts.css");
+#contenedorDesempeno {
+	background-image:url(../img/tablaDesempeno.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.doblalos {
+    transform: scale(2);
+}
+.compromisoBackground{
+	background-image: url(../img/backgroundCompromiso.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.actividad1{
+  background-image: url(../img/backgroundActividad1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad1Preguntas{
+  background-image: url(../img/backgroundActividad1Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad2{
+  background-image: url(../img/backgroundActividad2.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad2Preguntas{
+  background-image: url(../img/backgroundActividad2Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.actividad3{
+  background-image: url(../img/backgroundActividad3.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad3Preguntas{
+  background-image: url(../img/backgroundActividad3Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.actividad4{
+  background-image: url(../img/backgroundActividad4.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad4Preguntas{
+  background-image: url(../img/backgroundActividad4Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.actividad5{
+  background-image: url(../img/backgroundActividad5.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad5Preguntas{
+  background-image: url(../img/backgroundActividad5Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.actividad6{
+  background-image: url(../img/backgroundActividad6.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad6Preguntas{
+  background-image: url(../img/backgroundActividad6Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.actividad7{
+  background-image: url(../img/backgroundActividad7.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad7Preguntas{
+  background-image: url(../img/backgroundActividad7Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.actividad8{
+  background-image: url(../img/backgroundActividad8.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.actividad8Preguntas{
+  background-image: url(../img/backgroundActividad8Preguntas.jpg);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.evaluacion1{
+	background-image: url(../img/backgroundEvaluacion1.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.evaluacion2{
+	background-image: url(../img/backgroundEvaluacion2.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.evaluacion3{
+	background-image: url(../img/backgroundEvaluacion3.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.evaluacion4{
+	background-image: url(../img/backgroundEvaluacion4.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.evaluacion5{
+	background-image: url(../img/backgroundEvaluacion5.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.evaluacion6{
+	background-image: url(../img/backgroundEvaluacion6.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.evaluacion7{
+	background-image: url(../img/backgroundEvaluacion7.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.evaluacion8{
+	background-image: url(../img/backgroundEvaluacion8.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.misDatos{
+	background-image: url(../img/backgroundInscripcion.jpg);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.welcome{
+	background-image: url(../img/backgroundWelcome.png);
+	background-position: center center;	
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+.welcomeFemale{
+	background-image: url(../img/backgroundWFemale.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+.welcomeMale{
+	background-image: url(../img/backgroundWMale.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	}
+.misclinicos{
+    background-image: url(../img/backgroundDiagnostico.png);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+			
+.welcomeImage{
+	padding-top:10%;
+	padding-bottom:4%;
+
+	}
+.btnPurple{
+	font-family: 'Flama-Basic', sans-serif;
+	font-size: 12pt;
+	color:#FFF;
+	padding: 5px;
+	margin-top: 15px;
+	}
+.btnStart{
+	width: 250px;
+	background-color: #a84f94;
+	border-color:#a84f94;
+	}
+input{
+	margin-top: 20px;
+	font-family: 'Flama-Medium', sans-serif;
+	font-size: 9pt;
+	color:#898484;
+	border: 1px solid #999;
+    background: #FFF;
+	padding:5px;
+}
+.colorBlack{
+	color:#000;
+	}
+.colorGray{
+	color:#938d8d;
+	}
+
+.txtH4{
+	font-size:22pt;
+	font-family: 'Flama-Basic', sans-serif;
+	text-align:center;
+	}
+.titleWelcome{
+	width:100%;
+	padding-bottom:4%;
+	}
+.bgdiv{
+	background-image: url(../img/backgroundFilaDiagnostico.png);
+    height: 80px;
+	padding: 2%;
+	background-size: 100% 100%;
+	margin: 8px;
+	}
+.cuerpo{
+	background-image: url(../img/cuerpoDiagnostico.png);
+    height: 400px;
+	padding: 2%;
+	background-size: 100% 100%;
+	background-position-x: 8px;
+	}
+.msgdiag{
+	    height: 375px;
+	}
+.msgdiag1{
+	height: 215px;
+    width: 175px;
+    background-color: #BD0F53;
+    color: #FFFFFF;
+    padding: 5px;
+    align-content: center;
+	}
+.marcoizq {
+    background-image: url(../img/frameworkLeft.png);
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.marcoder {
+    background-image: url(../img/frameworkRight.png);
+    background-size: cover;
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+    padding: 20px 40px 10px 10px;
+    text-align: center;
+}
+.tablilla{
+    background-image: url(../img/tabla.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;;
+}
+.rango {
+      
+    height: 215px;
+    padding: 2% 10px 10px 10px;
+    font-size: large;
+    text-align: center;
+}
+.monitos {
+    border: 0;
+    height: 180px;
+    
+}
+.perimetro{
+      font-family: 'Flama-Medium', sans-serif;
+     font-size: larger;
+		
+		}
+.perimetrotexto{
+	    font-family: sans-serif;
+    font-size: small;
+		}
+.perimetrodatos{
+	    font-family: 'Flama-Medium', sans-serif;
+    font-size: x-large;
+		}
+/* COMPROMISO - INICIO*/
+.cajaContenedor{
+	width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+  .left2 {
+        float:left;
+        height: 100%;
+        width: 35%;
+
+    }
+    .right2 {
+        float:right;
+        height: 100%;
+        width: 40%;
+    }
+    .useTabla{
+        display: table;
+    }
+    .posTop{
+        vertical-align:top;
+        display: table-cell;
+    }
+ .posMiddle{
+        vertical-align:middle;
+        display: table-cell;
+    }
+.posBottom{
+    vertical-align:bottom;
+    display: table-cell;
+    }
+
+.caja{width: 100%;
+height: 100%;
+}
+.posPasos{
+    margin-left: 5%;
+}
+.tituloPasos{
+    margin-bottom: 5%;
+}
+ 
+/* COMPROMISO - FIN*/

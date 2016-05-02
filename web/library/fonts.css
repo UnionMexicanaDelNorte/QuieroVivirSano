@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face { 
+    font-family: 'Montserrat-Bold';
+    src: url('fonts/Montserrat-Bold.eot');
+    src: local('fonts/Montserrat-Bold'), url('fonts/Montserrat-Bold.otf') format('opentype'), url('fonts/Montserrat-Bold.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'Montserrat-Regular';
+    src: url('fonts/Montserrat-Regular.eot');
+    src: local('fonts/Montserrat-Regular'), url('fonts/Montserrat-Regular.otf') format('opentype'), url('fonts/Montserrat-Regular.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'Flama-Basic';
+    src:url('fonts/Flama-Basic.eot');
+    src: local('fonts/Flama-Basic'), url('fonts/Flama-Basic.otf') format('opentype'), url('fonts/Flama-Basic.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'Flama-Light';
+    src:url('fonts/Flama-Light.eot');
+    src: local('fonts/Flama-Light'), url('fonts/Flama-Light.otf') format('opentype'), url('fonts/Flama-Light.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'Flama-Ultralight';
+    src:url('fonts/Flama-Ultralight.eot');
+    src: local('fonts/Flama-Ultralight'), url('fonts/Flama-Ultralight.otf') format('opentype'), url('fonts/Flama-Ultralight.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'Flama-Medium';
+    src:url('fonts/Flama-Medium.eot');
+    src: local('fonts/Flama-Medium'), url('fonts/Flama-Medium.otf') format('opentype'), url('fonts/Flama-Medium.ttf') format('truetype');   
+}
+
+@font-face { 
+    font-family: 'Flama-Book';
+    src:url('fonts/Flama-Book.eot');
+    src: local('fonts/Flama-Book'), url('fonts/Flama-Book.otf') format('opentype'), url('fonts/Flama-Book.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'FlamaSemicondensed-Basic';
+    src:url('fonts/FlamaSemicondensed-Basic.eot');
+    src: local('fonts/FlamaSemicondensed-Basic'), url('fonts/FlamaSemicondensed-Basic.otf') format('opentype'), url('fonts/FlamaSemicondensed-Basic.ttf') format('truetype');
+    
+}
+@font-face { 
+    font-family: 'FlamaSemicondensed-Bold';
+    src:url('fonts/FlamaSemicondensed-Bold.eot');
+    src: local('fonts/FlamaSemicondensed-Bold'), url('fonts/FlamaSemicondensed-Bold.otf') format('opentype'), url('fonts/FlamaSemicondensed-Bold.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'Flama-Semibold';
+    src:url('fonts/Flama-Semibold.eot');
+    src: local('fonts/Flama-Semibold'), url('fonts/Flama-Semibold.otf') format('opentype'), url('fonts/Flama-Semibold.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: 'Flama-BasicItalic';
+    src:url('fonts/Flama-BasicItalic.eot');
+    src: local('fonts/Flama-BasicItalic'), url('fonts/Flama-BasicItalic.otf') format('opentype'), url('fonts/Flama-BasicItalic.ttf') format('truetype');
+}
+@font-face { 
+    font-family: 'FlamaSemicondensed-Medium';
+    src:url('fonts/FlamaSemicondensed-Medium.eot');
+    src: local('fonts/FlamaSemicondensed-Medium'), url('fonts/FlamaSemicondensed-Medium.otf') format('opentype'), url('fonts/FlamaSemicondensed-Medium.ttf') format('truetype');
+}
+
+@font-face { 
+    font-family: 'FlamaSemicondensed-Semibold';
+    src:url('fonts/FlamaSemicondensed-Semibold.eot');
+    src: local('fonts/FlamaSemicondensed-Semibold'), url('fonts/FlamaSemicondensed-Semibold.otf') format('opentype'), url('fonts/FlamaSemicondensed-Semibold.ttf') format('truetype');
+}
+
+.MonserratBold{
+    font-family: 'Montserrat-Bold', sans-serif;
+    color:#FFF;
+    }
+.MonserratRegular{
+    font-family: 'Montserrat-Regular', sans-serif;
+    color:#FFF;
+    }
+.FlamaBasic{
+    font-family: 'Flama-FlamaBasic', sans-serif;
+    color:#FFF;    
+    }
+ .FlamaLight{
+    font-family: 'Flama-Light', sans-serif;
+    color:#FFF;    
+    }
+.FlamaUltralight{
+    font-family: 'Flama-Ultralight', sans-serif;
+    color:#FFF;    
+    }
+.FlamaMedium{
+    font-family: 'Flama-Medium', sans-serif;
+    }
+.FlamaBook{
+    font-family: 'Flama-Book', sans-serif;
+    color:#FFF;    
+    }
+.FlamaSemicondensedBasic{
+    font-family: 'FlamaSemicondensed-Basic', sans-serif;
+    color:#FFF;    
+    }
+.FlamaSemicondensedBold{
+    font-family: 'FlamaSemicondensed-Bold', sans-serif;
+    color:#FFF;    
+    } 
+.FlamaSemiBold{
+    font-family: 'Flama-Semibold', sans-serif;
+    color:#FFF;    
+    }
+.FlamaBasicItalic{
+    font-family: 'Flama-BasicItalic', sans-serif;
+    color:#FFF;    
+    }
+.FlamaSemicondensedMedium{
+    font-family: 'FlamaSemicondensed-Medium', sans-serif;
+    color:#FFF;    
+    }
+ .FlamaSemicondensedSemibold{
+    font-family: 'FlamaSemicondensed-Semibold', sans-serif;
+    color:#FFF;    
+    }   
+
+    
+
+
+.size42{font-size:42pt;}
+.size40{font-size:40pt;}
+.size38{font-size:38pt;}
+.size35{font-size:35pt;}
+.size32{font-size:32pt;}
+.size30{font-size:30pt;}
+.size28{font-size:28pt;}
+.size26{font-size:26pt;}
+.size24{font-size:24pt;}
+.size24{font-size:22pt;}
+.size20{font-size:20pt;}    
+.size18{font-size:18pt;}
+.size16{font-size:16pt;}    
+.size14{font-size:14pt;}
+.size12{font-size:12pt;}
+.size10{font-size:10pt;}
+
+.espacioCaracteres{letter-spacing: 2pt;}
+.espacioLineas{line-height: 16pt;}
+.spaceTop{margin-top: 3%;}
+
+.colorAzul{color:#0065a2;}
+.colorCereza{color: #d50058;}  
+.colorVioleta{color: #880d54;}
+.colorNegro{color:#000;}
+.colorAzulMarino{color:#045b8b;}
+.colorAzulOscuro{color:#006aa7;}
+.colorAzulQuemado{color:#003a5d;}
+.colorRojo{color:#e20000;}
+.colorRojoQuemado{color:#920101;}
+.colorAmarillo{color:#ffde00;}
+.colorMorado{color:#390062;}

@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* CSS Document */
+@import url("fonts.css");
+
+.fondoAguaDiasRVM{
+  background-image: url(../img/backgroundHBAguaDias.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.tipsAguaDiasRVM{
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+.contenidoAguaDiasRVM{
+	position: fixed;
+	padding-top: 2%;
+	z-index: 20;
+}
+.personaAguaDiasRVM{
+	position: fixed; 
+	bottom:0px; 
+	right: -15px;
+	z-index: 10;
+	text-align: right;
+}
+.personaAguaDiasRVM>img{
+	height: 550px;
+}
+.espacioColAguaDiasRVM{
+	padding-left: 5%;
+}
+.articulosAguaDiasRVM{
+	width: 90%;
+	padding-top: 1%;
+}
+.tituloDiaAguaDiasRVM{
+	padding-top: 5%;
+	padding-bottom:  3%;
+}
